@@ -20,22 +20,21 @@ $(function() {
     });
     $('.imgzoom').click(function() {
         var image = $(this).html();
-        $('#popup').empty();
         $('#popup').append('<div class="container-fluid  t0 b0 l0 r0 pf bg-c4 z99 df fdc jcsc div-popup  hmxv"><div class="pf c-c2 t0 r0 pt25 pr25 fs12 fwb c-p">Close</div><div class="container tac pa25 df fdc jcsc divpopup hmxv">' + image + '</div></div>');
         // $(".divpopup").children().removeClass('w1').addClass(hmxv);
     })
+    $(document).mouseup(function(e) {
+        var container = $(".divpopup");
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+            $('#popup').empty();
+            console.log(456)
+        } else {
+            console.log(123)
+        }
+    });
 
 });
-$(document).mouseup(function(e) {
-    var container = $(".divpopup");
-    if (!container.is(e.target) && container.has(e.target).length === 0) {
-        $('#popup').empty();
-        console.log(456)
-    } else {
-        console.log(123)
 
-    }
-});
 // search bar
 $(document).on("click", ".search-button", function() {
         var dsb = $('.search-bar').css('display');
