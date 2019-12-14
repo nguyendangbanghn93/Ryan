@@ -26,7 +26,7 @@
                         <li class="fs-15  lstn"><a href="index.html">Chào mừng bạn đến với Ryan Sporrt Club</a></li>
                     </ul>
                     <ul class="df ">
-                        <li class="fs-15  lstn pl10 pr10 br1 bss bc6"><a class="ahc1" href="dangnhap.html">Đăng nhập</a></li>
+                        <li class="fs-15  lstn pl10 pr10 br1 bss bc6"><a class="ahc1 dangnhap">Đăng nhập</a></li>
                         <li class="fs-15  lstn pl10"><a class="ahc1" href="https://www.facebook.com/"><i class='fab fa-facebook-square'></i></a></li>
                         <li class="fs-15  lstn pl10"><a class="ahc1" href="https://www.instagram.com/"><i class='fab fa-instagram'></i></a></li>
                         <li class="fs-15  lstn pl10 pr10 br1 bss bc6"><a class="ahc1" href="https://twitter.com/"><i class='fab fa-twitter-square'></i></a></li>
@@ -35,20 +35,20 @@
                 </div>
             </div>
         </div>
-        <div class="pa0 navbar bg-menu-md">
+        <div class="pa0 navbar bg-menu-md bg-hmenu">
             <nav class="container c-c6 df jcsb  fdc-md">
                 <div class="df jcsb">
                     <a class="plr15" href="index.html"><img src="frontend/image/logo-ryan.png" class="w150 w100-xs" alt=""></a>
                     <a class="switch-menu h-center c-c2 plr15 fs25 fs2-xs"><i class='fas fa-bars'></i></a>
                 </div>
-                <ul class="df jcfe w1 ma0 fdc-md mt20-md menu pr15">
-                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md active"><a class=" ahc1 wfc" href="index.html">Trang chủ</a></li>
+                <ul class="df jcfe w1 ma0 fdc-md mt20-md menu pr15 pb15-md">
+                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md "><a class=" ahc1 wfc" href="index.html">Trang chủ</a></li>
                     <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md"><a class=" ahc1 wfc" href="gioithieu.html">Giới Thiệu</a></li>
-                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md hover">
-                        <a class=" ahc1 wfc" href="dichvu.html">Dịch vụ</a>
+                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md hover ">
+                        <a class=" ahc1 wfc " href="dichvu.html">Dịch vụ</a>
                         <ul class="pa t1 dnhdb ma0 bg-14 pl0  z999">
                             <li class="lstn pa10 wsn ahc1 w1-md hover">
-                                <a class="wfc" href="thethaotrongnha.html">Thể thao trong nhà</a>
+                                <a class="wfc " href="thethaotrongnha.html">Thể thao trong nhà</a>
                                 <ul class="pa pl0 l1 t0 pl0 ma0 dnhdb bg-15">
                                     <li class="lstn pa10 w1-md   "><a class="c-c2 ahc1 wfc" href="thehinh.html">Thể hình</a></li>
                                     <li class="lstn pa10 w1-md   "><a class="c-c2 ahc1 wfc" href="vothuat.html">Võ Thuật</a></li>
@@ -67,8 +67,8 @@
                             <li class="lstn pa10 wsn ahc1 w1-md hover">
                                 <a class="wfc" href="dichvugiaitri.html">Dịch vụ giải trí</a>
                                 <ul class="pa pl0 l1 t0 pl0 ma0 dnhdb w200 bg-15">
-                                    <li class="lstn pa10 w1-md   "><a class="c-c2 ahc1 wfc" href="sukien.html">Sự kiện</a></li>
-                                    <li class="lstn pa10 w1-md   "><a class="c-c2 ahc1 wfc wspw" href="hoinghitieccuoi.html">Hội nghị, tiệc cưới</a></li>
+                                    <li class="lstn pa10 w1-md   "><a class="c-c2 ahc1 wfc" href="bowling.html">bowling</a></li>
+                                    <li class="lstn pa10 w1-md   "><a class="c-c2 ahc1 wfc wspw" href="Patin.html">Patin</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -78,26 +78,22 @@
                         <ul class="pa t1 dnhdb ma0 bg-14 pl0  z999">
                             <li class="lstn pa10 wsn ahc1 w1-md hover">
                                 <a class="wfc" href="lichhoc.html">Lịch học</a>
-
                             </li>
                             <li class="lstn pa10 wsn ahc1 w1-md hover">
                                 <a class="wfc" href="phanhoi.html">Phản hồi & Đóng góp</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md"><a class=" ahc1 wfc" href="sukien.html">Sự kiện</a></li>
+                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md active"><a class=" ahc1 wfc" href="sukien.html">Sự kiện</a></li>
                     <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc w1-md"><a class=" ahc1 wfc" href="lienhe.html">Liên hệ</a></li>
-                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc dn-rmd"><a class=" ahc1 wfc" href="dangnhap.html">Đăng nhập</a></li>
-                    <li class="pl10 lstn df fdc jcsc fs13 wfc w1-md c-c1 ">
-                        <a class=" ahc1 wfc c-p search-button">
+                    <li class="plr10 lstn ptb10 df fdc jcsc fs13 wfc dn-rmd"><a class=" ahc1 wfc dangnhap">Đăng nhập</a></li>
+                    <li class="pl10 lstn df fdc jcsc fs13 wfc w1-md c-c1 seaa">
+                        <a class=" ahc1 wfc c-p search-button dn-md">
                             <i class='fas fa-search'></i>
-
                         </a>
-                        <div class="search-bar">
-                            <form class="df w-center fdrr flc pa15" action="">
-                                <input class="h40 w70 bra3 fs1" placeholder="Tìm kiếm" type="text" name="" id="">
-                                <button class="pa15 bra3 bg-c1 btn bn"><i class='fas fa-search fs14'></i></button>
-                            </form>
+                        <div class="mla mra df w1 dn-rmd">
+                            <input class="h40 w1 bra3 fs1" placeholder="Tìm kiếm" type="text" name="" id="">
+                            <button class="ptb10 plr15 bra3 bg-c1 btn bn"><i class='fas fa-search fs14'></i></button>
                         </div>
                     </li>
                 </ul>
@@ -565,7 +561,7 @@
                             <li><a class="ahc1" href="thanhvien.html">Thành viên</a></li>
                             <li><a class="ahc1" href="sukien.html">Sự kiện</a></li>
                             <li><a class="ahc1" href="lienhe.html">Liên hệ</a></li>
-                            <li><a class="ahc1" href="dangnhap.html">Đăng nhập</a></li>
+                            <li><a class="ahc1 dangnhap">Đăng nhập</a></li>
                         </ul>
                     </div>
                 </div>
